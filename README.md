@@ -2,6 +2,11 @@
 
 [https://github.com/paganjin/match-card-game]
 
+# How to use
+1. git clone [url]
+2. npm install
+3. npm start
+
 一个记忆型翻牌游戏，总共三个 level，分别是 2x2, 4x4, 6x6
 每一次成功匹配的分数计算 = 当前等级 ^ 2 x 当前倒计时剩余的时间
 
