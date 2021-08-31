@@ -10,7 +10,7 @@ const Level = () => {
   return(
     <LevelContainer>
       <div>Current Level:</div>
-      <div>1</div>
+      <div>2</div>
     </LevelContainer>
   )
 }
