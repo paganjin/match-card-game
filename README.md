@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Getting Started with Match Your Card - Mason Group Code Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[https://github.com/paganjin/match-card-game]
 
-## Available Scripts
+一个记忆型翻牌游戏，总共三个 level，分别是 2x2, 4x4, 6x6
+每一次成功匹配的分数计算 = 当前等级 ^ 2 x 当前倒计时剩余的时间
 
-In the project directory, you can run:
+# 游戏流程
 
-### `npm start`
+1. 用户点击 Start Game，更新游戏界面。level 1， 四张卡片。倒计时开始。
+2. 用户点击卡片，
+   如果该卡片未被翻开过
+   翻开卡片，如果这是翻开的第二张卡片，检查两张卡片是否一致
+   如果一致，持续打开卡片，增加玩家分数
+   否则，触发 1.5 秒的惩罚时间，1.5 秒后盖上这两张卡片 （惩罚时间内不可翻开其他卡片）
+   如果已经被翻开
+   把该卡片盖上
+3. 如果 60s 已到，所有卡片并未全部翻转，游戏结束，弹出对话框显示当前分数。
+4. 如果 60s 内，所有卡片全部翻转，进入下一 level。如果当前为第三个 level，结束游戏，弹出对话框显示当前分数
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+游戏最终完成效果参考： [https://lazebear.github.io/Mem/]
+项目提供了一些简单的初始代码，但是可以使用 react 完成
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# 最终评分标准：
 
-### `npm test`
+- 代码整洁度，可读性，可维护性
+- level 1 实现
+- level 2 实现
+- level 3 实现
+- 游戏核心翻牌逻辑
+- 开始按钮
+- 倒计时
+- 分数结算
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 代码提交要求：
 
-### `npm run build`
+1. 所有代码上传 github
+2. 创建一个 github page 用来展示你编写的游戏
+3. 添加一个 readme 文件，包含这个 github page 的链接
+4. 填写这个 google 问卷，[https://forms.gle/8hNTEN2DfUtiCP6TA]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 提交截止时间 8月31日晚

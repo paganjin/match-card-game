@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "neuropol";
+  src: url("./components/assets/fonts/neuropol.woff") format("woff"), url("./components/assets/fonts/neuropol.ttf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*,
+*::before,
+*::after {
+  margin: auto;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: "neuropol", sans-serif;
+  font-size: 1rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background: linear-gradient(#eaf9f8, #8cdcda);
+  color: #4d4d4d;
 }
