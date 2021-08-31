@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/match-card-game/static/css/main.2a13f43f.chunk.css",
+    "main.js": "/match-card-game/static/js/main.5c85ad2f.chunk.js",
+    "main.js.map": "/match-card-game/static/js/main.5c85ad2f.chunk.js.map",
+    "runtime-main.js": "/match-card-game/static/js/runtime-main.6664df02.js",
+    "runtime-main.js.map": "/match-card-game/static/js/runtime-main.6664df02.js.map",
+    "static/js/2.76a76217.chunk.js": "/match-card-game/static/js/2.76a76217.chunk.js",
+    "static/js/2.76a76217.chunk.js.map": "/match-card-game/static/js/2.76a76217.chunk.js.map",
+    "index.html": "/match-card-game/index.html",
+    "static/css/main.2a13f43f.chunk.css.map": "/match-card-game/static/css/main.2a13f43f.chunk.css.map",
+    "static/js/2.76a76217.chunk.js.LICENSE.txt": "/match-card-game/static/js/2.76a76217.chunk.js.LICENSE.txt",
+    "static/media/aws.69df137b.svg": "/match-card-game/static/media/aws.69df137b.svg",
+    "static/media/css3.a970faff.svg": "/match-card-game/static/media/css3.a970faff.svg",
+    "static/media/github.fad4b944.svg": "/match-card-game/static/media/github.fad4b944.svg",
+    "static/media/html5.bf6bb1c2.svg": "/match-card-game/static/media/html5.bf6bb1c2.svg",
+    "static/media/linkedIn.6494960c.svg": "/match-card-game/static/media/linkedIn.6494960c.svg",
+    "static/media/App.css": "/match-card-game/static/media/neuropol.fbb9ba70.ttf",
+    "static/media/nodejs.ca7d5097.svg": "/match-card-game/static/media/nodejs.ca7d5097.svg",
+    "static/media/react.7098e271.svg": "/match-card-game/static/media/react.7098e271.svg",
+    "static/media/sass.8ec16938.svg": "/match-card-game/static/media/sass.8ec16938.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6664df02.js",
+    "static/js/2.76a76217.chunk.js",
+    "static/css/main.2a13f43f.chunk.css",
+    "static/js/main.5c85ad2f.chunk.js"
+  ]
+}
