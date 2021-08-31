@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/match-card-game/static/css/main.2a13f43f.chunk.css",
-    "main.js": "/match-card-game/static/js/main.5c85ad2f.chunk.js",
-    "main.js.map": "/match-card-game/static/js/main.5c85ad2f.chunk.js.map",
+    "main.js": "/match-card-game/static/js/main.41bffb38.chunk.js",
+    "main.js.map": "/match-card-game/static/js/main.41bffb38.chunk.js.map",
     "runtime-main.js": "/match-card-game/static/js/runtime-main.6664df02.js",
     "runtime-main.js.map": "/match-card-game/static/js/runtime-main.6664df02.js.map",
     "static/js/2.76a76217.chunk.js": "/match-card-game/static/js/2.76a76217.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.6664df02.js",
     "static/js/2.76a76217.chunk.js",
     "static/css/main.2a13f43f.chunk.css",
-    "static/js/main.5c85ad2f.chunk.js"
+    "static/js/main.41bffb38.chunk.js"
   ]
 }
