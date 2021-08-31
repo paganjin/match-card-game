@@ -1,6 +1,6 @@
 # Getting Started with Match Your Card - Mason Group Code Test
 
-[https://github.com/paganjin/match-card-game]
+[https://paganjin.github.io/match-card-game/]
 
 # How to use
 1. git clone [url]
